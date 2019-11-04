@@ -5,7 +5,7 @@ title = "Liva | Personal blog template"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
-disqusShortname = "liva"
+disqusShortname = ""
 
 [outputs]
   home = ["HTML", "AMP", "RSS", "JSON"]
