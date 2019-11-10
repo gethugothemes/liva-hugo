@@ -38,8 +38,6 @@ disqusShortname = ""
   URL = "plugins/search/mark.js"
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
-  [[params.plugins.js]]
-  URL = "plugins/google-map/gmap.js"
 
   
 ############################## navigation ###############################
