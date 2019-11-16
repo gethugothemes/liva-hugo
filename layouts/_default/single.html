@@ -12,7 +12,9 @@
         <div class="mb-3"><span>By {{ .Site.Params.Author }}</span> <span
             class="border-bottom border-primary px-2 mx-1"></span>
           <span>{{ .PublishDate.Format "02 January 2006" }}</span></div>
+        {{ if .Params.image }}
         <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
+        {{ end }}
         <div class="content mb-5">
           {{ .Content }}
         </div>
