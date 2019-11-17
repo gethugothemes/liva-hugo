@@ -4,7 +4,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
+        {{ if .Params.Image }}
         <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
+        {{ end }}
         <h4 class="widget-title">{{ .Title | markdownify }}</h4>
         <div class="content">
           {{ .Content }}
