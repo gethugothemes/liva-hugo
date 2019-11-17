@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "fuse.js": "^3.4.5",
+    "jquery": "^3.4.1",
+    "mark.js": "^8.11.1",
+    "slick-carousel": "^1.8.1",
+    "venobox": "^1.8.6"
+  },
+  "scripts": {
+    "copy-deps": "node scripts/copy-dependencies.js"
+  }
+}
