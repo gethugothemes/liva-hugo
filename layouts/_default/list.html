@@ -10,7 +10,9 @@
           {{ range $paginator.Pages }}
           <div class="col-md-6 mb-4">
             <article class="card">
+              {{ if .Params.Image }}
               <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+              {{ end }}
               <div class="card-body px-0">
                 {{ range .Params.Categories }}
                 <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}"
@@ -38,8 +40,10 @@
         <div class="widget">
           {{ range first 1 (where .Site.RegularPages "Type" "about")}}
           <h4 class="widget-title">{{ .Title | markdownify }}</h4>
+          {{ if .Params.Image }}
           <img src="{{ .Params.Image | absURL }}" alt=""
             class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+          {{ end }}
           <p>{{ .Summary }}</p>
           <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
           {{ end }}
