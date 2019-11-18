@@ -17,9 +17,13 @@
                   class="text-primary">{{ . | title | humanize }}</a>
                 {{ end }}
                 <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
-                <div class="mb-3"><span>By {{ .Site.Params.Author }}</span> <span
-                    class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02 January 2006" }}</span></div>
+                <div class="mb-3">
+                  <span>By {{ .Site.Params.Author }}</span>
+                  {{ if not .Params.HideDate }}
+                  <span class="border-bottom border-primary px-2 mx-1"></span>
+                  <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+                  {{ end }}
+                </div>
                 <p class="card-text">{{ .Summary }}</p>
                 <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
               </div>
