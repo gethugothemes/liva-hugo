@@ -36,7 +36,7 @@
 
 <h2 id="reporting-issues">Reporting Issues</h2>
 
-<p>We use GitHub Issues as the official bug tracker for the <strong>Kross Theme.</strong> Please Search <a
+<p>We use GitHub Issues as the official bug tracker for the <strong>Liva Theme.</strong> Please Search <a
     href="https://github.com/themefisher/liva-hugo/issues">existing issues.</a>It’s possible
   someone has already reported the same problem.</p>
 
