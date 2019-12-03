@@ -81,7 +81,7 @@
               {{ end }}
               <div class="card-body px-0">
                 {{ range .Params.Categories }}
-                <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}"
+                <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
                   class="text-primary">{{ . | title | humanize }}</a>
                 {{ end }}
                 <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
@@ -121,7 +121,7 @@
           {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
           <ul class="list-unstyled">
             {{- range $name, $items := .Site.Taxonomies.categories }}
-            <li><a href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+            <li><a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
             {{- end }}
           </ul>
           {{- end }}
@@ -135,7 +135,7 @@
           <ul class="list-inline">
             {{- range $name, $items := .Site.Taxonomies.tags }}
             <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-                href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+                href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
             {{- end }}
           </ul>
           {{- end }}
