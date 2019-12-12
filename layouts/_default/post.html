@@ -9,7 +9,7 @@
             class="text-primary">{{ . | title | humanize }}</a>
         {{ end }}
         <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
-        <div class="mb-3">
+        <div class="mb-3 post-meta">
             <span>By {{ .Site.Params.Author }}</span>
             {{ if not .Params.HideDate }}
             <span class="border-bottom border-primary px-2 mx-1"></span>

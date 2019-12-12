@@ -21,10 +21,17 @@
     vertical: true,
     verticalSwiping: true,
     arrows: false,
-    dots: true
+    dots: true,
+    responsive: [{
+      breakpoint: 600,
+      settings: {
+        vertical: false,
+        verticalSwiping: false,
+      }
+    }]
   });
 
   // venobox initialize
-  $('.venobox').venobox(); 
+  $('.venobox').venobox();
 
 })(jQuery);

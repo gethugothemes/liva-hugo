@@ -34,6 +34,10 @@ a:focus {
   text-decoration: none;
 }
 
+a.text-primary:hover{
+  color: $primary-color !important;
+}
+
 a,
 button,
 select {
@@ -174,6 +178,10 @@ a:hover {
   border-color: $primary-color !important;
 }
 
+.font-weight-medium{
+  font-weight: 500 !important;
+}
+
 /* form control */
 .form-control{
   height: 50px;
@@ -182,6 +190,9 @@ a:hover {
     box-shadow: none;
     outline: 0;
     border-color: $primary-color;
+  }
+  &::placeholder {
+    font-size: 13px;
   }
 }
 

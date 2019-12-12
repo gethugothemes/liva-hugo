@@ -1,6 +1,7 @@
 /* Button style */
 .btn {
   font-size: 14px;
+  font-weight: 500;
   font-family: $primary-font;
   text-transform: capitalize;
   padding: 10px 15px;
@@ -34,7 +35,7 @@
 
 .btn-outline-primary {
   background: transparent;
-  color: $text-color;
+  color: $text-color-dark;
   border-color: $primary-color;
 
   &:active,

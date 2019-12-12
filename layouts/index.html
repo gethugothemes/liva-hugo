@@ -16,7 +16,7 @@
             </div>
             <div class="col-md-6 offset-md-1">
               <div class="card-body">
-                <div class="mb-3">
+                <div class="mb-3 post-meta">
                   <span>By {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}
                   <span class="border-bottom border-primary px-2 mx-1"></span>
@@ -48,7 +48,7 @@
           <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
           {{ end }}
           <div class="media-body">
-            <div class="mb-3">
+            <div class="mb-3 post-meta">
               <span>By {{ .Site.Params.Author }}</span>
               {{ if not .Params.HideDate }}
               <span class="border-bottom border-primary px-2 mx-1"></span>
@@ -85,7 +85,7 @@
                   class="text-primary">{{ . | title | humanize }}</a>
                 {{ end }}
                 <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
-                <div class="mb-3">
+                <div class="mb-3 post-meta">
                   <span>By {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}
                   <span class="border-bottom border-primary px-2 mx-1"></span>
@@ -101,60 +101,7 @@
         </div>
       </div>
       <!-- sidebar -->
-      <div class="col-lg-4">
-        <!-- about -->
-        <div class="widget">
-          {{ range first 1 (where .Site.RegularPages "Type" "about")}}
-          <h4 class="widget-title">{{ .Title | markdownify }}</h4>
-          {{ if .Params.Image }}
-          <img src="{{ .Params.Image | absURL }}" alt=""
-            class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-          {{ end }}
-          <p>{{ .Summary }}</p>
-          <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
-          {{ end }}
-        </div>
-        <!-- category -->
-        <div class="widget">
-          <h4 class="widget-title">Category</h4>
-          {{- if isset .Site.Taxonomies "categories" }}
-          {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
-          <ul class="list-unstyled">
-            {{- range $name, $items := .Site.Taxonomies.categories }}
-            <li><a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
-            {{- end }}
-          </ul>
-          {{- end }}
-          {{- end }}
-        </div>
-        <!-- Tags -->
-        <div class="widget">
-          <h4 class="widget-title">Tags</h4>
-          {{- if isset .Site.Taxonomies "tags" }}
-          {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
-          <ul class="list-inline">
-            {{- range $name, $items := .Site.Taxonomies.tags }}
-            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-                href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
-            {{- end }}
-          </ul>
-          {{- end }}
-          {{- end }}
-        </div>
-        <!-- social -->
-        <div class="widget">
-          <h4 class="widget-title">Social</h4>
-          <ul class="list-inline social-links">
-            {{ range .Site.Params.social }}
-            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-            {{ end }}
-          </ul>
-        </div>
-        <!-- advertisement -->
-        <div class="widget">
-          <img src="{{`images/ad.png` | absURL}}" alt="" class="img-fluid">
-        </div>
-      </div>
+      {{ partial "sidebar.html" . }}
       <!-- /sidebar -->
 
       <!-- pagination -->
