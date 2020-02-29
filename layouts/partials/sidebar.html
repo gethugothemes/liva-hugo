@@ -1,7 +1,7 @@
 <div class="col-lg-4">
   <!-- about -->
   <div class="widget">
-    {{ range first 1 (where .Site.RegularPages "Type" "about")}}
+    {{ with .Site.GetPage "/about" }}
     <h4 class="widget-title">{{ .Title | markdownify }}</h4>
     {{ if .Params.Image }}
     <img src="{{ .Params.Image | absURL }}" alt=""

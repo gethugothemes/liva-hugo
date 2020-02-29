@@ -8,7 +8,7 @@ paginate = 6
 disqusShortname = ""
 
 [outputs]
-  home = ["HTML", "AMP", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -46,34 +46,34 @@ disqusShortname = ""
   # main menu
   [[menu.main]]
   name = "About"
-  URL = "about/about"
-  weight = 2
+  URL = "about"
+  weight = 1
   
   [[menu.main]]
   name = "Post"
   URL = "blog"
-  weight = 3
+  weight = 2
   
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 4
+  weight = 3
 
   # footer menu
   [[menu.footer]]
   name = "About"
-  URL = "about/about"
-  weight = 2
+  URL = "about"
+  weight = 1
   
   [[menu.footer]]
   name = "Post"
   URL = "blog"
-  weight = 3
+  weight = 2
   
   [[menu.footer]]
   name = "Contact"
   URL = "contact"
-  weight = 4
+  weight = 3
 
 
 #################### default parameters ################################
