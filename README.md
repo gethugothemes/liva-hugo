@@ -48,10 +48,12 @@ If you have questions or need help integrating the product please [contact us](m
 
 ## Premium Themes
 
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![revolve](https://gethugothemes.com/wp-content/uploads/edd/2019/11/revolve.jpg)](https://gethugothemes.com/products/revolve-hugo/) | [![redlab](https://gethugothemes.com/wp-content/uploads/edd/2019/09/redlab-hugo-thumbnail.jpg)](https://gethugothemes.com/products/redlab-hugo/) |
+| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![galaxy](https://gethugothemes.com/wp-content/uploads/edd/2020/04/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://gethugothemes.com/wp-content/uploads/edd/2020/03/logbook-hugo.jpg)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Revolve**  | **Red Lab**  |
-| [![northendlab](https://gethugothemes.com/wp-content/uploads/2019/11/Blogplate-Blog-Template.png)](https://gethugothemes.com/products/northendlab/) | [![Influencer](https://gethugothemes.com/wp-content/uploads/2019/11/Influencer.png)](https://gethugothemes.com/products/influencer-hugo/) | [![Kross](https://gethugothemes.com/wp-content/uploads/edd/2019/07/kross-portfolio-template.jpg)](https://gethugothemes.com/products/kross-hugo-theme/) |
-| **Northendlab** | **Influencer** | **Kross** |
-| [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![Parsa](https://gethugothemes.com/wp-content/uploads/edd/2019/07/parsa-768x576.jpg)](https://gethugothemes.com/products/parsa-hugo-theme/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
-| **Biztrox** | **Parsa** | **More Hugo Themes** |
+| **Hugo Mega Bundle**  | **Galaxy**  | **LogBook**  |
+| [![gojournal](https://gethugothemes.com/wp-content/uploads/edd/2020/04/GoJournal-hugo.png)](https://gethugothemes.com/products/gojournal-hugo/) | [![gofolium](https://gethugothemes.com/wp-content/uploads/2020/03/gofolium.png)](https://gethugothemes.com/products/gofolium-hugo/) | [![biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) |
+| **GoJournal** | **GoFolium** | **Biztrox** |
+| [![northendlab](https://gethugothemes.com/wp-content/uploads/2019/11/Blogplate-Blog-Template.png)](https://gethugothemes.com/products/northendlab/) | [![Parsa](https://gethugothemes.com/wp-content/uploads/edd/2019/07/parsa-768x576.jpg)](https://gethugothemes.com/products/parsa-hugo-theme/) | [![Kross](https://gethugothemes.com/wp-content/uploads/edd/2019/07/kross-portfolio-template.jpg)](https://gethugothemes.com/products/kross-hugo-theme/) |
+| **Northendlab** | **Parsa** | **Kross** |
+| [![revolve](https://gethugothemes.com/wp-content/uploads/edd/2019/11/revolve.jpg)](https://gethugothemes.com/products/revolve-hugo/) | [![Phantom](https://gethugothemes.com/wp-content/uploads/edd/2019/06/Phantom.jpg)](https://gethugothemes.com/products/phantom-hugo-theme/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
+| **Revolve** | **Phantom** | **More Hugo Themes** |
