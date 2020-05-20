@@ -2,7 +2,7 @@
 <header class="navigation">
   <div class="container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
       <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
           src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
@@ -23,10 +23,7 @@
         <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
             src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
-          </li>
+        <ul class="navbar-nav">
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -50,7 +47,7 @@
 
         {{ if .Site.Params.search.enable }}
         {{ "<!-- search -->" | safeHTML }}
-        <div class="search px-4">
+        <div class="search pl-lg-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
             <form action="{{ .Site.BaseURL }}/search" class="h-100">
