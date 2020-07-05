@@ -13,7 +13,7 @@
 * [Demo](#demo)
 * [Installation](#installation)
 * [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
+* [Technical Support or Questions](#technical-support-or-questions-(paid))
 * [Licensing](#licensing)
 * [More Hugo Themes](https://gethugothemes.com/shop/)
 
@@ -37,14 +37,14 @@ We use GitHub Issues as the official bug tracker for the **Liva Theme.** Please 
 
 If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/liva-hugo/issues/new)
 
-## Technical Support or Questions
+## Technical Support or Questions (Paid)
 
 If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
 ## Licensing
 
-* Copyright 2020 Themefisher (https://themefisher.com/)
-* Licensed under MIT (https://github.com/themefisher/liva-hugo/blob/master/LICENSE)
+- Copyright 2020 Designed by [Themefisher](https://themefisher.com/) & Developed by [Gethugothemes](https://gethugothemes.com/)
+- Licensed under MIT (https://github.com/themefisher/liva-hugo/blob/master/LICENSE)
 
 ## Premium Themes
 
