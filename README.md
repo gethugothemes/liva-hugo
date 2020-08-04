@@ -25,6 +25,8 @@
 
 Navigate to your themes folder in your Hugo site and use the following commands:
 
+**Note : You must use `hugo-extended` version to compile SCSS**
+
 ```
   $ mkdir themes
   $ cd themes
