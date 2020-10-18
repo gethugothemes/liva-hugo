@@ -107,6 +107,13 @@ enable = true
 title = "Join Our Newsletter"
 content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
 
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
