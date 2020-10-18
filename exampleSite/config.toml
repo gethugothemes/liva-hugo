@@ -39,21 +39,21 @@ disqusShortname = ""
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
 
-  
+
 ############################## navigation ###############################
 [menu]
-  
+
   # main menu
   [[menu.main]]
   name = "About"
   URL = "about"
   weight = 1
-  
+
   [[menu.main]]
   name = "Post"
   URL = "blog"
   weight = 2
-  
+
   [[menu.main]]
   name = "Contact"
   URL = "contact"
@@ -64,12 +64,12 @@ disqusShortname = ""
   name = "About"
   URL = "about"
   weight = 1
-  
+
   [[menu.footer]]
   name = "Post"
   URL = "blog"
   weight = 2
-  
+
   [[menu.footer]]
   name = "Contact"
   URL = "contact"
