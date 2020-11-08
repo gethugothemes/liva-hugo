@@ -22,21 +22,29 @@
 
 <footer>
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-12 text-center mb-5">
         <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
       </div>
+      {{ if or  .Site.Params.mobile .Site.Params.location .Site.Params.email }}         
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
+          {{ if .Site.Params.mobile }}
           <li class="mb-3"><a class="text-dark" href="tel:{{ .Site.Params.mobile }}"><i
                 class="ti-mobile mr-3 text-primary"></i>{{ .Site.Params.mobile }}</a></li>
+          {{ end }}
+          {{ if .Site.Params.location }}           
           <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>{{ .Site.Params.location }}</li>
+          {{ end }}
+          {{ if .Site.Params.email }}           
           <li class="mb-3"><a class="text-dark" href="mailto:{{ .Site.Params.email }}"><i
                 class="ti-email mr-3 text-primary"></i>{{ .Site.Params.email }}</a>
+          {{ end }}
           </li>
         </ul>
       </div>
+      {{ end }}
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
