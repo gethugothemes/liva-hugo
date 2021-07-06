@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://demo.gethugothemes.com/liva/"
 languageCode = "en-us"
 title = "Liva | Personal blog template"
 theme = "liva-hugo"
@@ -90,7 +90,7 @@ mobile = "0124857985320"
 email = "demo@email.com"
 location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
+copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
 
   # Preloader
   [params.preloader]

@@ -15,7 +15,8 @@
     });
 
     // featured post slider
-    $('.featured-post-slider').slick({
+    const featuredPostSlider = $(".featured-post-slider");
+    featuredPostSlider.slick({
       infinite: true,
       vertical: true,
       verticalSwiping: true,
@@ -29,6 +30,15 @@
         }
       }]
     });
+
+    featuredPostSlider.on('wheel', (function(e) {
+      e.preventDefault();
+      if (e.originalEvent.deltaY > 0) {
+        $(this).slick('slickNext');
+      } else {
+        $(this).slick('slickPrev');
+      }
+    }));
 
     // venobox initialize
     $('.venobox').venobox();

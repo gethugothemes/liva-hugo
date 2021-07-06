@@ -48,12 +48,13 @@
             overflow: hidden;
             width: 1px;
             height: 100%;
+            transition: 0s;
           }
 
           &.slick-active {
             button {
               background: $primary-color;
-              width: 5px;
+              width: 6px;
               left: -2px;
             }
           }
@@ -133,6 +134,14 @@
 }
 
 /* widget */
+.widgets {
+  padding-left: 25px;
+  border-left: 1px solid #eee;
+  @include desktop {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
 .widget {
   text-align: center;
   margin-bottom: 50px;
@@ -329,6 +338,14 @@
     color: $text-color-dark;
   }
 
+}
+
+footer a {
+  @extend .text-dark;
+  &:hover {
+    color: $primary-color !important;
+    text-decoration: underline;
+  }
 }
 
 /* /markdown style */

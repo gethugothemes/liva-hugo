@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
 
 body {
-  line-height: 1.2;
+  line-height: 1.4;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
@@ -17,11 +17,13 @@ p, .paragraph {
   font-family: $primary-font;
 }
 
-h1,h2,h3,h4,h5,h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: $text-color-dark;
-  font-family: $primary-font;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.3 !important;
+  &:not([class^='ti-']) {
+    font-family: $primary-font;
+  }
 }
 
 a{

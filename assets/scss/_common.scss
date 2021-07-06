@@ -119,6 +119,10 @@ a:hover {
 .text-dark {
   color: $text-color-dark !important;
 }
+a.text-dark:focus,
+a.text-dark:hover {
+  color: $primary-color !important;
+}
 
 .text-light {
   color: $text-color-light !important;
