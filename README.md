@@ -123,6 +123,6 @@ We are available for **Hiring** for your next HUGO project. Please, check our
 
 
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![galaxy](https://gethugothemes.com/wp-content/uploads/edd/2020/04/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://gethugothemes.com/wp-content/uploads/edd/2020/03/logbook-hugo.jpg)](https://gethugothemes.com/products/logbook-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.webp)](https://gethugothemes.com/products/galaxy/) | [![LogBook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
 | **Premium Theme Bundle (40+)** | **Galaxy**  | **LogBook**  |
