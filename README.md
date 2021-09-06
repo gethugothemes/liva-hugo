@@ -1,4 +1,4 @@
-<h1 align=center>Liva Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">Page Speed (77%)</a></h1>
+<h1 align=center>Liva Hugo | <a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">Page Speed (77%)</a></h1>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.58.0" alt="Contributors">
@@ -26,15 +26,15 @@
 
 ---
 ## Features
-- Open graph meta tag
-- Twitter card meta tag
 - Google analytics  support
-- Css and js bundle with hugo pipe
-- Netlify settings predefined
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
 - Contact form Support
 - Search by fuse.js 
-- GDPR consent enabled
+- GDPR consent enable
 - Google page speed optimized ( 77% )
+- Open graph meta tag
+- Twitter card meta tag
 
 ## Local development
 
@@ -80,20 +80,9 @@ If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/liva-hugo/issues).
 
 <!-- ## Liva Hugo theme Powered Websites
-- https://thetechbattalion.com/
-- https://adaptechgroup.com/
-- https://adenuz.com/
-- https://junior-aei.com/
-- https://akademiainformatyki.edu.pl/
-- https://naval-engineering.com/
-- https://www.istrosec.com/
-- https://www.puylevequepatrimoine.com/
-- https://www.beltlabs.com/
-- https://cloud-fundis.co.za
-- https://www.cocoon-arolla.com
-- https://www.plurisante202.fr
 
-View all the websites powered by Liva Hugo theme [here](https://github.com/gethugothemes/liva-hugo/wiki/All-liva-hugo-theme-Powered-Websites). Want to submit your own website powered by Liva Hugo theme? You can submit it [here](https://github.com/gethugothemes/liva-hugo/discussions/174). -->
+
+View all the websites powered by Liva Hugo theme [here](https://github.com/gethugothemes/liva-hugo/wiki/All-liva-hugo-theme-Powered-Websites). Want to submit your own website powered by Liva Hugo theme? You can submit it [here](https://github.com/gethugothemes/liva-hugo/discussions/46). -->
 
 <!-- licence -->
 ## License
@@ -113,7 +102,7 @@ share those images.
 - [Slick Slider](https://kenwheeler.github.io/slick)
 - [Venobox](https://veno.es/venobox)
 - [Fuse Js](https://fusejs.io/)
-- [Google Fonts](http://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/liva-hugo/graphs/contributors)
 
 
@@ -123,6 +112,6 @@ We are available for **Hiring** for your next HUGO project. Please, check our
 
 
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.webp)](https://gethugothemes.com/products/galaxy/) | [![LogBook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.webp)](https://gethugothemes.com/products/galaxy/) | [![LogBook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook/) |
 |:---:|:---:|:---:|
 | **Premium Theme Bundle (40+)** | **Galaxy**  | **LogBook**  |
