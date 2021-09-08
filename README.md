@@ -108,10 +108,10 @@ share those images.
 
 ## Hire Us
 We are available for **Hiring** for your next HUGO project. Please, check our
-[services](https://cutt.ly/ght-service)
+[services](https://gethugothemes.com/services/?ref=github)
 
 
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.webp)](https://gethugothemes.com/products/galaxy/) | [![LogBook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![nebula](https://demo.gethugothemes.com/thumbnails/nebula.webp)](https://gethugothemes.com/products/nebula/) | [![eventre](https://demo.gethugothemes.com/thumbnails/eventre.webp)](https://gethugothemes.com/products/eventre/) |
 |:---:|:---:|:---:|
-| **Premium Theme Bundle (40+)** | **Galaxy**  | **LogBook**  |
+| **Premium Theme Bundle (40+)** | **Nebula**  | **Eventre**  |
