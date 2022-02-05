@@ -1,7 +1,7 @@
 name = "Liva Hugo"
 license = "MIT"
 licenselink = "https://github.com/themefisher/liva-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Liva Template"
+description = "Liva is a personal blog theme powered by Hugo."
 homepage = "https://gethugothemes.com/products/liva-hugo/"
 demosite = "https://demo.gethugothemes.com/liva"
 tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'gethugothemes', 'resume', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
@@ -9,5 +9,5 @@ features = ['bootstrap','responsive']
 min_version = "0.58.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "Gethugothemes"
+  homepage = "https://gethugothemes.com/"
