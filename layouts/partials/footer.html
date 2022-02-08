@@ -60,7 +60,7 @@
         <ul class="list-unstyled">
           {{- range $name, $items := .Site.Taxonomies.categories }}
           <li class="mb-3"><a class="text-dark"
-              href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
+              href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/">{{ $name | title | humanize }}</a>
           </li>
           {{- end }}
         </ul>

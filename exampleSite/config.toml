@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/liva/"
+baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
 languageCode = "en-us"
 title = "Liva | Personal blog template"
 theme = "liva-hugo"
@@ -8,72 +8,72 @@ paginate = 6
 disqusShortname = ""
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 ############################# Plugins ##############################
 [params.plugins]
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/venobox/venobox.css"
+# CSS Plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/venobox/venobox.css"
 
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/venobox/venobox.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/fuse.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/mark.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/search.js"
+# JS Plugins
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/mark.js"
+[[params.plugins.js]]
+URL = "plugins/search/search.js"
 
 
 ############################## navigation ###############################
 [menu]
 
-  # main menu
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 1
+# main menu
+[[menu.main]]
+name = "About"
+URL = "about/"
+weight = 1
 
-  [[menu.main]]
-  name = "Post"
-  URL = "blog"
-  weight = 2
+[[menu.main]]
+name = "Post"
+URL = "blog/"
+weight = 2
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+[[menu.main]]
+name = "Contact"
+URL = "contact/"
+weight = 3
 
-  # footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 1
+# footer menu
+[[menu.footer]]
+name = "About"
+URL = "about/"
+weight = 1
 
-  [[menu.footer]]
-  name = "Post"
-  URL = "blog"
-  weight = 2
+[[menu.footer]]
+name = "Post"
+URL = "blog/"
+weight = 2
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+[[menu.footer]]
+name = "Contact"
+URL = "contact/"
+weight = 3
 
 
 #################### default parameters ################################
@@ -92,14 +92,14 @@ location = "Dhaka, Bangladedsh"
 # copyright
 copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
 
-  # Preloader
-  [params.preloader]
-  enable = true
-  preloader = "" # use .png , .svg or .gif format
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
 
-  # search
-  [params.search]
-  enable = true
+# search
+[params.search]
+enable = true
 
 ############################ news letter ########################
 [params.newsletter]
