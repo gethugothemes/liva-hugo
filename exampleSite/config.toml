@@ -84,7 +84,7 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+GoogleAnalyticsID = "Your ID"
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
