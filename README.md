@@ -1,4 +1,9 @@
-<h1 align=center>Liva Hugo | <a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">Page Speed (77%)</a></h1>
+<h1 align=center>Liva Hugo</h1> 
+
+<p align=center>Liva is a modern and fully customizable minimal blog theme that will help you create any kind of website whether that's personal, travel, news, photography, tech, food, or other niches. </p>
+
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2Fsite%2F&form_factor=desktopF">Page Speed (87%)</a>
+</h2>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.58.0" alt="Contributors">
@@ -26,7 +31,7 @@
 
 ---
 
-## Features
+## Key Features
 
 - Google analytics  support
 - CSS and JS bundle with hugo pipe
@@ -122,4 +127,4 @@ If you need to customize the theme or complete website development from scratch,
 
 | [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=liva_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa/) | [![Logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Parsa**  | **Logbook**  |
+| **Get 55+ Premium Hugo Themes Bundle** | **Parsa**  | **Logbook**  |
