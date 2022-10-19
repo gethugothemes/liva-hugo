@@ -39,7 +39,7 @@
 - Contact form Support
 - Search by fuse.js
 - GDPR consent enable
-- Google page speed optimized ( 77% )
+- Google page speed optimized ( 87% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -91,7 +91,10 @@ issue](https://github.com/gethugothemes/liva-hugo/issues).
 
 <!-- ## Liva Hugo theme Powered Websites
 
-View all the websites powered by Liva Hugo theme [here](https://github.com/gethugothemes/liva-hugo/wiki/All-liva-hugo-theme-Powered-Websites). Want to submit your own website powered by Liva Hugo theme? You can submit it [here](https://github.com/gethugothemes/liva-hugo/discussions/46). -->
+View all the websites powered by Liva Hugo theme [here](https://github.com/gethugothemes/liva-hugo/wiki/All-liva-hugo-theme-Powered-Websites).-->
+
+## Add your website to the Gethugothemes showcase
+Want to submit your own website powered by Liva Hugo to the Gethugothemes showcase? You can submit it [here](https://gethugothemes.com/showcase).
 
 <!-- licence -->
 ## License
