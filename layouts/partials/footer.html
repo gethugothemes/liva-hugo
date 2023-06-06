@@ -110,7 +110,7 @@
         cookieBox.classList.remove('cookie-box-hide');
         cookieButton.onclick = function () {
           Cookies.set('cookie-box', true, {
-            expires: Number('{{ site.Params.cookies.expire_days }}')
+            expires: Number('{{ .Site.Params.cookies.expire_days }}')
           });
           cookieBox.classList.add('cookie-box-hide');
         };
