@@ -26,7 +26,7 @@
       <div class="col-12 text-center mb-5">
         <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
       </div>
-      {{ if or  .Site.Params.mobile .Site.Params.location .Site.Params.email }}         
+      {{ if or .Site.Params.mobile .Site.Params.location .Site.Params.email }}
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
@@ -34,13 +34,13 @@
           <li class="mb-3"><a class="text-dark" href="tel:{{ .Site.Params.mobile }}"><i
                 class="ti-mobile mr-3 text-primary"></i>{{ .Site.Params.mobile }}</a></li>
           {{ end }}
-          {{ if .Site.Params.location }}           
+          {{ if .Site.Params.location }}
           <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>{{ .Site.Params.location }}</li>
           {{ end }}
-          {{ if .Site.Params.email }}           
+          {{ if .Site.Params.email }}
           <li class="mb-3"><a class="text-dark" href="mailto:{{ .Site.Params.email }}"><i
                 class="ti-email mr-3 text-primary"></i>{{ .Site.Params.email }}</a>
-          {{ end }}
+            {{ end }}
           </li>
         </ul>
       </div>
@@ -59,8 +59,8 @@
         {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
         <ul class="list-unstyled">
           {{- range $name, $items := .Site.Taxonomies.categories }}
-          <li class="mb-3"><a class="text-dark"
-              href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/">{{ $name | title | humanize }}</a>
+          <li class="mb-3"><a class="text-dark" href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/">{{
+              $name | title | humanize }}</a>
           </li>
           {{- end }}
         </ul>
@@ -83,7 +83,7 @@
 </footer>
 
 <script>
-  var indexURL = {{ "index.json" | absURL }}
+  var indexURL = '{{ "index.json" | absURL }}'
 </script>
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
@@ -99,41 +99,42 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+  This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+    class="btn btn-sm btn-primary ml-2">I Accept</span>
 </div>
 <script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires: {{ site.Params.cookies.expire_days }}
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
-		}
-	})(jQuery);
+    (function ($) {
+      const cookieBox = document.getElementById('js-cookie-box');
+      const cookieButton = document.getElementById('js-cookie-button');
+      if (!Cookies.get('cookie-box')) {
+        cookieBox.classList.remove('cookie-box-hide');
+        cookieButton.onclick = function () {
+          Cookies.set('cookie-box', true, {
+            expires: Number('{{ site.Params.cookies.expire_days }}')
+          });
+          cookieBox.classList.add('cookie-box-hide');
+        };
+      }
+    })(jQuery);
 </script>
 
 <!-- cookie style -->
 <style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
+  .cookie-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+    padding: 1rem 2rem;
+    background: rgb(71, 71, 71);
+    transition: all .75s cubic-bezier(.19, 1, .22, 1);
+    color: #fdfdfd;
+  }
 
-.cookie-box-hide {
-  display: none;
-}
+  .cookie-box-hide {
+    display: none;
+  }
 </style>
 {{ end }}
