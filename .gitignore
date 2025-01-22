@@ -1,0 +1,33 @@
+# production
+**/public
+**/resources
+
+#misc
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+yarn-error.log
+node_modules
+**/.hugo_build.lock
+.forestry
+Thumbs.db
+**/**.lock
+.dist
+.tmp
+.sum
+.sass-cache
+npm-debug.log
+builds
+package-lock.json
+jsconfig.json
+test.file
+config-client.toml
+config-current.toml
+.netlify
+hugo_stats.json
+go.sum
+yarn.lock
+
+# jetbrains files
+.idea/

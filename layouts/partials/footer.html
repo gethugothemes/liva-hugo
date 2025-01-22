@@ -24,7 +24,9 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-5">
-        <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+        <a href="{{ .Site.BaseURL }}">
+          {{ partial "image.html" (dict "Src" .Site.Params.logo "Alt" .Site.Title ) }}
+        </a>
       </div>
       {{ if or  .Site.Params.mobile .Site.Params.location .Site.Params.email }}         
       <div class="col-lg-3 col-sm-6 mb-5">

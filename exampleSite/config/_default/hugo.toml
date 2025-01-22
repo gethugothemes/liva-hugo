@@ -1,0 +1,8 @@
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
+languageCode = "en-us"
+title = "Liva | Personal blog template"
+theme = "liva-hugo"
+summaryLength = "10"
+pagination.pagerSize = 6
+disqusShortname = ""

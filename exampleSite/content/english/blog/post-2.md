@@ -11,7 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "HTML & CSS"
+  - "HTMl CSS"
 tags:
   - "Photos"
   - "Game"

@@ -1,14 +1,26 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
-languageCode = "en-us"
-title = "Liva | Personal blog template"
-theme = "liva-hugo"
-summaryLength = "10"
-paginate = 6
-disqusShortname = ""
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+mobile = "0124857985320"
+email = "demo@email.com"
+location = "Dhaka, Bangladedsh"
+# copyright
+copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -40,57 +52,6 @@ URL = "plugins/search/mark.js"
 URL = "plugins/search/search.js"
 
 
-############################## navigation ###############################
-[menu]
-
-# main menu
-[[menu.main]]
-name = "About"
-URL = "about/"
-weight = 1
-
-[[menu.main]]
-name = "Post"
-URL = "blog/"
-weight = 2
-
-[[menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 3
-
-# footer menu
-[[menu.footer]]
-name = "About"
-URL = "about/"
-weight = 1
-
-[[menu.footer]]
-name = "Post"
-URL = "blog/"
-weight = 2
-
-[[menu.footer]]
-name = "Contact"
-URL = "contact/"
-weight = 3
-
-
-#################### default parameters ################################
-[params]
-logo = "images/logo.png"
-home = "Home"
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
-# copyright
-copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
 
 # Preloader
 [params.preloader]
