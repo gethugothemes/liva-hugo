@@ -1,7 +1,7 @@
 {
   "name": "liva-hugo",
   "version": "2.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "gethugothemes",
   "scripts": {
     "dev": "hugo server",
