@@ -7,7 +7,7 @@
       {{ if .Params.Image }}
         {{ partial "image.html" (dict "Src" .Params.Image "Alt" "Image" "Class" "img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4" ) }}
       {{ end }}
-      <p>{{ .Summary }}</p>
+      <p>{{ .Summary | truncate 150}}</p>
       <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
       {{ end }}
     </div>

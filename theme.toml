@@ -6,7 +6,7 @@ homepage = "https://gethugothemes.com/products/liva-hugo/"
 demosite = "https://demo.gethugothemes.com/liva"
 tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'gethugothemes', 'resume', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
 features = ['bootstrap','responsive']
-min_version = "0.58.0"
+min_version = "0.147.2"
 
 [author]
   name = "Gethugothemes"
