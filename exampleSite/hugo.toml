@@ -7,7 +7,9 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+[services]
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
