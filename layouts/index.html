@@ -10,8 +10,11 @@
         <article class="card featured-post">
           <div class="row no-gutters align-items-center">
             <div class="col-md-5">
-              {{ if .Params.Image }}
+              {{ if and .Params.Image (ne .Params.Image "") }}
+              {{ $image := resources.Get .Params.Image }}
+              {{ if $image }}
               {{ partial "image.html" (dict "Src" .Params.Image "Alt" .Title "Class" "card-img" ) }}
+              {{ end }}
               {{ end }}
             </div>
             <div class="col-md-6 offset-md-1">
@@ -76,8 +79,11 @@
           {{ range $paginator.Pages }}
           <div class="col-md-6 mb-4">
             <article class="card">
-              {{ if .Params.Image }}
+              {{ if and .Params.Image (ne .Params.Image "") }}
+              {{ $image := resources.Get .Params.Image }}
+              {{ if $image }}
               {{ partial "image.html" (dict "Src" .Params.Image "Alt" .Title "Class" "card-img-top" ) }}
+              {{ end }}
               {{ end }}
               <div class="card-body px-0">
                 {{ range .Params.Categories }}

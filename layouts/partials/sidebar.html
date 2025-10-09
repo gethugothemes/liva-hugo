@@ -4,8 +4,11 @@
     <div class="widget">
       {{ with .Site.GetPage "/about" }}
       <h4 class="widget-title">{{ .Title | markdownify }}</h4>
-      {{ if .Params.Image }}
+      {{ if and .Params.Image (ne .Params.Image "") }}
+      {{ $image := resources.Get .Params.Image }}
+      {{ if $image }}
         {{ partial "image.html" (dict "Src" .Params.Image "Alt" "Image" "Class" "img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4" ) }}
+      {{ end }}
       {{ end }}
       <p>{{ .Summary | truncate 150}}</p>
       <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>

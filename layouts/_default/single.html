@@ -16,8 +16,11 @@
           <span>{{ .PublishDate.Format "02 January 2006" }}</span>
           {{ end }}
         </div>
-        {{ if .Params.image }}
+        {{ if and .Params.Image (ne .Params.Image "") }}
+        {{ $image := resources.Get .Params.Image }}
+        {{ if $image }}
         {{ partial "image.html" (dict "Src" .Params.Image "Alt" .Title "Class" "img-fluid w-100 mb-4" ) }}
+        {{ end }}
         {{ end }}
         <div class="content mb-5">
           {{ .Content }}
