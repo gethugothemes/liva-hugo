@@ -8,7 +8,7 @@
         <div class="row">
           {{ $paginator := .Paginate .Data.Pages }}
           {{ range $paginator.Pages }}
-          {{ .Render "post" }}
+          {{ partial "post.html" . }}
           {{ end }}
         </div>
       </div>
