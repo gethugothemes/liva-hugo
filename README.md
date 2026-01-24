@@ -2,7 +2,7 @@
 
 <p align=center>Liva is a modern and fully customizable minimal blog theme that will help you create any kind of website whether that's personal, travel, news, photography, tech, food, or other niches. </p>
 
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2Fsite%2F&form_factor=desktopF">Page Speed (87%)🚀</a>
+<h2 align="center"> <a target="_blank" href="https://liva-hugo-site.vercel.app/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-liva-hugo-site-vercel-app/jyim9gl3rw?form_factor=desktop">Page Speed (90%)🚀</a>
 </h2>
 
 <p align=center>
