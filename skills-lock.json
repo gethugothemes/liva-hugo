@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "hugo-template-guidance": {
+      "source": "zeon-studio/template-skills",
+      "sourceType": "github",
+      "skillPath": "skills/hugo-template-guidance/SKILL.md",
+      "computedHash": "3484c6acc2c60d4b3d02d4ef8f36baf0711a94c800353995a78b6209eac27f20"
+    }
+  }
+}
