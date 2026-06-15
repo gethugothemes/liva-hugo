@@ -9,7 +9,7 @@
 
 ## If any check fails
 
-**Stop and ask the user to install/upgrade — don't work around it.** Recommend [mise](https://mise.jdx.dev/):
+**Stop and ask the user to install/upgrade — don't work around it.** Recommend [mise](https://mise.jdx.dev/) also ask user to run `eval "$(mise activate zsh)"` to activate the correct environment after installing hugo version with mise.
 
 - Install mise if missing (see mise's install docs for the OS).
 - `mise use hugo-extended@<version>` — pin the exact extended Hugo build (use `HUGO_VERSION` from `netlify.toml` if present).
