@@ -27,7 +27,9 @@
         </div>
 
         <!-- comments -->
-        {{ template "_internal/disqus.html" . }}
+        {{ if site.Params.open_remark.enable }}
+        {{ partial "open-remark.html" . }}
+        {{ end }}
       </div>
     </div>
   </div>

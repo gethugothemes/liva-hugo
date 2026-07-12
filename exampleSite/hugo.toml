@@ -76,6 +76,12 @@ content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non
 enable = true
 expire_days = 2
 
+# OpenRemark Comment
+[params.open_remark]
+enable = true
+site_key = "cmqnb3wd5000104kww7862ku4" # your site key from the OpenRemark dashboard
+embed_url = "https://open-remark.zeon.studio/embed.js"
+
 
 ############################# social site ########################
 [[params.social]]

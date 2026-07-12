@@ -3,31 +3,31 @@
 # main menu
 [[main]]
 name = "About"
-URL = "about/"
+url = "about/"
 weight = 1
 
 [[main]]
 name = "Post"
-URL = "blog/"
+url = "blog/"
 weight = 2
 
 [[main]]
 name = "Contact"
-URL = "contact/"
+url = "contact/"
 weight = 3
 
 # footer menu
 [[footer]]
 name = "About"
-URL = "about/"
+url = "about/"
 weight = 1
 
 [[footer]]
 name = "Post"
-URL = "blog/"
+url = "blog/"
 weight = 2
 
 [[footer]]
 name = "Contact"
-URL = "contact/"
+url = "contact/"
 weight = 3

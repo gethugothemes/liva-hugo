@@ -1,9 +1,10 @@
 [build]
 publish = "public"
-command = "hugo --minify --gc"
+command = "pnpm project-setup && pnpm build"
 
 [build.environment]
-HUGO_VERSION = "0.147.2"
+HUGO_VERSION = "0.163.3"
+GO_VERSION = "1.25.5"
 HUGO_BASEURL = "/"
 
 [[headers]]

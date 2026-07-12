@@ -2,7 +2,7 @@
 # English language
 # --------------------------
 [en]
-languageName = "En"
-languageCode = "en-us"
+label = "En"
+locale = "en-us"
 contentDir = "content/english"
 weight = 1
